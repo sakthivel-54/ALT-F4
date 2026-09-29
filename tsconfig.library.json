@@ -1,0 +1,41 @@
+/**
+ * Library build: emits JS + .d.ts declarations to ./lib (via `pnpm run build:lib`,
+ * which runs tsgo). Mirrors tsconfig.build.json's include/exclude so declaration
+ * emit type-checks the same clean set (no test files / vitest globals).
+ */
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./lib" /* Redirect output structure to the directory. */,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "src/**/*.jsx",
+    "src/**/*.png",
+    "src/**/*.mp3",
+    "src/**/*.jpg",
+    "public/analysis/js/analysis-tools.js"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "dist/**/*",
+    "src/admin/**/*",
+    "embed/**/*",
+    "lib/**/*",
+    "coverage/**/*",
+    "tsconfig.json",
+    "src/tools/**/*",
+    "test/**/*",
+    "src/engine/ootk/dist/**/*",
+    "src/engine/ootk/examples/**/*",
+    "src/engine/ootk/test/**/*",
+    "src/engine/ootk/**/__tests__/**/*",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/plugins-external/**/__tests__/**/*"
+  ]
+}

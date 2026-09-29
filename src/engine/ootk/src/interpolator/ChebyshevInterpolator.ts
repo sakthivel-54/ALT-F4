@@ -1,0 +1,1 @@
+export { ChebyshevInterpolator } from '../main';

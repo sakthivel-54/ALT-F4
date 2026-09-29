@@ -1,0 +1,18 @@
+@import url('design-tokens.css');
+@import url("./loading-screen.common.css");
+
+:root {
+  --colorTertiary: #142445 !important;
+  --color-dark-background: #080d1a !important;
+  --color-dark-border: #1c3258 !important;
+  --color-dark-text-accent: #00b4d8 !important;
+  --color-dark-text-muted: #94a3b8 !important;
+  /* NASA Official Insignia Blue */
+  --color-primary: #0b3d91 !important;
+  /* NASA Telemetry Cyan for icons & highlights */
+  --color-text-accent: #00b4d8 !important;
+  /* Lighter NASA Blue */
+  --color-primary-light: #1656c9 !important;
+  /* Deep Space NASA Blue */
+  --color-primary-dark: #072559 !important;
+}

@@ -1,0 +1,1 @@
+export { SegmentedLagrangeInterpolator } from '../main';

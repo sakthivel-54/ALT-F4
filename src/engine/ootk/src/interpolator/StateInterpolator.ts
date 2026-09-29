@@ -1,0 +1,1 @@
+export { StateInterpolator } from '../main';

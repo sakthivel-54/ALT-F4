@@ -1,0 +1,108 @@
+/* ============================================================
+   NASA Mission Operations Design Tokens
+   Official NASA Theme: Deep Space Navy, NASA Blue, NASA Red,
+   Flight Telemetry Cyan, and Aerospace Glassmorphism.
+   ============================================================ */
+
+:root {
+  /* ---- NASA Color Primitives ---- */
+  --nasa-blue: #0b3d91;       /* Official NASA Insignia Blue (Pantone 286 C) */
+  --nasa-blue-light: #1656c9; /* Active / Hover NASA Blue */
+  --nasa-blue-dark: #072559;  /* Deep NASA Blue */
+  --nasa-red: #fc3d21;        /* Official NASA Vector Red (Pantone 185 C) */
+  --nasa-red-light: #ff5e47;  /* Hover Red */
+  --nasa-cyan: #00b4d8;       /* Flight Telemetry / HUD Cyan */
+  --nasa-cyan-glow: rgba(0, 180, 216, 0.4);
+
+  /* Deep Space Mission Control Grays & Navies */
+  --kt-gray-50: #f8fafc;
+  --kt-gray-100: #f1f5f9;
+  --kt-gray-200: #e2e8f0;
+  --kt-gray-300: #cbd5e1;
+  --kt-gray-400: #94a3b8;
+  --kt-gray-500: #64748b;
+  --kt-gray-600: #475569;
+  --kt-gray-700: #1e293b;
+  --kt-gray-800: #0f172a;
+  --kt-gray-900: #080d1a;
+  --kt-gray-950: #030712;
+
+  --kt-red-400: #ff5e47;
+  --kt-red-500: #fc3d21;
+  --kt-red-600: #cf2a12;
+
+  /* ---- Semantic: Backgrounds (Deep Space Flight Deck) ---- */
+  --kt-bg-primary: #080d1a;
+  --kt-bg-elevated: #0d172b;
+  --kt-bg-surface: #13223f;
+  --kt-bg-hover: rgba(11, 61, 145, 0.28);
+  --kt-bg-active: rgba(0, 180, 216, 0.25);
+
+  /* ---- Semantic: Borders (Aerospace HUD) ---- */
+  --kt-border-default: #1c3258;
+  --kt-border-subtle: rgba(0, 180, 216, 0.18);
+  --kt-border-strong: #00b4d8;
+
+  /* ---- Semantic: Text ---- */
+  --kt-text-primary: #f8fafc;
+  --kt-text-secondary: #cbd5e1;
+  --kt-text-tertiary: #94a3b8;
+  --kt-text-accent: #00b4d8;
+  --kt-text-muted: #64748b;
+
+  /* ---- Semantic: Interactive (NASA Insignia Blue + Red) ---- */
+  --kt-accent: #0b3d91;
+  --kt-accent-light: #1656c9;
+  --kt-accent-dark: #072559;
+
+  /* ---- Spacing Scale (4px base) ---- */
+  --kt-space-0: 0px;
+  --kt-space-1: 4px;
+  --kt-space-2: 8px;
+  --kt-space-3: 12px;
+  --kt-space-4: 16px;
+  --kt-space-5: 20px;
+  --kt-space-6: 24px;
+  --kt-space-8: 32px;
+  --kt-space-10: 40px;
+  --kt-space-12: 48px;
+
+  /* ---- Typography Scale ---- */
+  --kt-font-xs: 11px;
+  --kt-font-sm: 13px;
+  --kt-font-base: 14px;
+  --kt-font-md: 16px;
+  --kt-font-lg: 18px;
+  --kt-font-xl: 24px;
+
+  /* ---- Border Radius (Crisp Precision) ---- */
+  --kt-radius-sm: 4px;
+  --kt-radius-md: 6px;
+  --kt-radius-lg: 8px;
+  --kt-radius-xl: 12px;
+  --kt-radius-full: 9999px;
+
+  /* ---- Elevation (Cosmic Shadows + Telemetry Glow) ---- */
+  --kt-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --kt-shadow-md: 0 4px 12px rgba(3, 7, 18, 0.6);
+  --kt-shadow-lg: 0 8px 24px rgba(3, 7, 18, 0.8), 0 0 16px rgba(11, 61, 145, 0.3);
+  --kt-shadow-xl: 0 16px 48px rgba(3, 7, 18, 0.9), 0 0 24px rgba(0, 180, 216, 0.25);
+
+  /* ---- Motion ---- */
+  --kt-duration-instant: 0ms;
+  --kt-duration-fast: 100ms;
+  --kt-duration-normal: 200ms;
+  --kt-duration-slow: 300ms;
+  --kt-easing-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --kt-easing-enter: cubic-bezier(0, 0, 0.2, 1);
+  --kt-easing-exit: cubic-bezier(0.4, 0, 1, 1);
+
+  /* ---- Backward-Compatible Aliases ---- */
+  --color-dark-background: #080d1a;
+  --color-dark-border: #1c3258;
+  --color-dark-text-accent: #00b4d8;
+  --color-dark-text-muted: #94a3b8;
+  --color-primary: #0b3d91;
+  --color-primary-light: #1656c9;
+  --color-primary-dark: #072559;
+}
