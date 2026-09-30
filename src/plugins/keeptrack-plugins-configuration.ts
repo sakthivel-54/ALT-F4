@@ -164,4 +164,6 @@ export type KeepTrackPluginsConfiguration = {
   LaunchpadPlugin?: PluginConfiguration;
   FavoritesMenuPlugin?: PluginConfiguration;
   OnboardingPlugin?: PluginConfiguration;
+  RagAiAssistant?: PluginConfiguration;
 };
+

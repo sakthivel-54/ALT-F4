@@ -1,18 +1,16 @@
-![Latest Version](https://img.shields.io/badge/version-13.11.1-darkgreen?style=flat-square) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/thkruz/keeptrack.space?style=flat-square) ![language](https://img.shields.io/github/languages/top/thkruz/keeptrack.space?style=flat-square) ![Languages](https://img.shields.io/github/languages/count/thkruz/keeptrack.space?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/thkruz/keeptrack.space?style=flat-square) ![License](https://img.shields.io/github/license/thkruz/keeptrack.space?style=flat-square)
+![Latest Version](https://img.shields.io/badge/version-13.11.1-darkgreen?style=flat-square)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./public/img/logo.png">
   <source media="(prefers-color-scheme: light)" srcset="./public/img/logo-light.png">
-  <img src="./public/img/logo.png" width='100%' alt="KeepTrack.Space">
+  <img src="./public/img/logo.png" width='100%' alt="ALT + F4">
 </picture>
 
-# KeepTrack.space™
+# ALT + F4™
 
 > Professional satellite tracking for everyone
 
-**KeepTrack™** brings real orbital mechanics to students and educators. Used by [EPFL’s Cosmos Archaeology](https://keeptrack.space/projects/cosmos-archeology),
-[StarTalk](https://www.youtube.com/watch?v=H0jLiGAGtyg&t=130s), the [18th Space Defense Squadron](https://keeptrack.space/projects/operations-centers), and
-[ethicallyHackingspace](https://start.ethicallyhacking.space/), among many others.
+**ALT + F4™** brings real orbital mechanics to students and educators. Used by [StarTalk](https://www.youtube.com/watch?v=H0jLiGAGtyg&t=130s) and [ethicallyHackingspace](https://start.ethicallyhacking.space/), among many others.
 
 **Key Features:**
 
@@ -22,7 +20,7 @@
 - 📱 Works on mobile, tablet, and desktop
 - 🆓 Free, open source, runs offline
 
-[Try it live](https://app.keeptrack.space) | [Installation](#installation) | [Join Discord](https://discord.gg/G4tJfSkmzx) | [Screenshots](#screenshots)
+[Installation](#installation) | [Join Discord](https://discord.gg/G4tJfSkmzx) | [Screenshots](#screenshots)
 
 ---
 

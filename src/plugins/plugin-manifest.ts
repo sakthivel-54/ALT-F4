@@ -1025,8 +1025,15 @@ export const pluginManifest: PluginDescriptor[] = [
     // e.g. View on GitHub) in the drawer's About group.
     defaultConfig: { enabled: true, order: -1 },
   },
+  {
+    configKey: 'RagAiAssistant',
+    ossImport: () => import('./rag-ai-assistant/rag-ai-assistant'),
+    ossClassName: 'RagAiAssistant',
+    defaultConfig: { enabled: true },
+  },
 
   // ── External plugins (generated — always init after every built-in) ──────────
+
   // Empty upstream; populated by `npm run plugin -- sync` from installed clones.
   ...externalPluginManifest,
 ];
